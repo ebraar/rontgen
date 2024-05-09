@@ -1,0 +1,24 @@
+aşınma // erosion
+genişleme // dilation
+açma // opening 
+kapama // closing 
+
+** AÇMA 
+- objenin dış hatlarını yumuşatır, 
+- dar geçitleri koparır,
+- küçük çıkıntıları yok eder.
+
+** KAPAMA
+- hatları yumuşatmaya çalışır,
+- fakat açmanın tersine, 
+- küçük kırıkları ve uzun ince geçitleri birleştirir,
+- küçük delikleri yok eder ve hat üzerindeki aralıkları doldurur.
+
+** opening işlemi erozyon uygulandıktan sonra dilation işleminin uygulanmasıyla gerçekleştirilir. 
+
+Erozyon, görüntüdeki nesnelerin sınırlarını küçültür, 
+ardından dilatasyon bu sınırları genişletir, 
+ancak erozyonla kaybolan küçük nesneler geri gelmez.
+
+*- erozyondan sonra dilate işlemi = açma
+*- dilate işleminden sonra erozyon = kapama
